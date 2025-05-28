@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
@@ -60,4 +61,10 @@ pre {
   overflow-x: auto;
   margin-top: 10px;
   color: #00ffcc;
+}
+
+@media (max-width: 1080px){
+  body{
+    height: -2px;
+  }
 }
